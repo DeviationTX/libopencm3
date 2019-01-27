@@ -36,7 +36,7 @@ TGT_CFLAGS	+= $(STANDARD_FLAGS)
 # ARFLAGS	= rcsv
 ARFLAGS		= rcs
 
-OBJS		= gpio.o rcc.o desig.o
+OBJS		= gpio.o rcc.o desig.o adc.o adc_common_v1.o
 
 OBJS            += crc_common_all.o dac_common_all.o dma_common_f24.o \
                    gpio_common_all.o gpio_common_f0234.o i2c_common_v1.o \
